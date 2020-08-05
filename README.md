@@ -39,6 +39,11 @@ Navigate to Build page, choose Connectedlogisticsand click Create app.
 ![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B7.PNG)
 Enter your own friendly application name.A unique Application URL based on the application name will be generated. You can use this URL to access your application.
 ![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B71.PNG)
+Review other Terms and Conditionsandselect Create at the bottom of the page.
+_Device Connection Details_
+This section describes how to add a device to your IoT Central application and get device connection details. Theses connection details will be used when Integration with IoT Central
+Navigate to IoT Central application page, the default page is on Dashboard.To add a new device template, select +New on the Device Templates page.
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B72.PNG)
 <a name="preparethedevice"></a>
 # Prepare the Device.
 
