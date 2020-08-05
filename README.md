@@ -37,7 +37,8 @@ You should createan Azure IoT Centralapplication at first according to the follo
 Navigate to the [Azure IoT Central Build](https://aka.ms/iotcentral) site. Then sign in with a Microsoft personal, work, or school account.
 Navigate to Build page, choose Connectedlogisticsand click Create app.
 ![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B7.PNG)
-
+Enter your own friendly application name.A unique Application URL based on the application name will be generated. You can use this URL to access your application.
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B71.PNG)
 <a name="preparethedevice"></a>
 # Prepare the Device.
 
