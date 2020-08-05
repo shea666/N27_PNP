@@ -59,6 +59,19 @@ In order to interact with your device, you should create a view to display relev
 
 ![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B73.PNG)
 
+Select Views and then Visualizing the Device.
+select Humidity and Temperature, and then select Combine. select the Change Visualization button at the top of the tile if you want to view this chart in a different format.
+Select Save to save your view.
+Publish device template
+After create device template, Select Publish button at the right top of the tile
+
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B74.PNG)
+
+On the Publish a Device Template dialog, choose Publish. After a device template is published, it's visible on the Devices page and to the operator.
+Navigation to Devices and select the device template you create just now. Then select New
+
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B75.PNG)
+
 <a name="preparethedevice"></a>
 # Prepare the Device.
 
