@@ -72,6 +72,11 @@ Navigation to Devices and select the device template you create just now. Then s
 
 ![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B75.PNG)
 
+Use the suggested Device ID or enter your own lowercase Device ID. You can also enter a name for your new device. Select Create.
+Select the device and you will see details about it, Select the Connect button, you can get the device connection details. Record the ID Scope, Device ID and Primary key.
+
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B76.PNG)
+
 <a name="preparethedevice"></a>
 # Prepare the Device.
 
