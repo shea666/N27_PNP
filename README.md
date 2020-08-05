@@ -56,7 +56,9 @@ After you download the file, open it in a text editor, and replace the two insta
 Note: only the characters a-z, A-Z, 0-9, and underscore permit.
 Back toDevice templates > Environmental Sensor page. Choose Import Capability Model to create a new device capability model from a JSON file. Navigate to the folder where you saved the EnvironmentalSensorInline.capabilitymodel.json file on your local machine. Select the file and then select Open. 
 In order to interact with your device, you should create a view to display relevant information about your device.
+
 ![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B73.PNG)
+
 <a name="preparethedevice"></a>
 # Prepare the Device.
 
