@@ -90,7 +90,53 @@ Connect the USB cable, power adapter, antenna, SIM card, etc. as shown in the pi
 
 **Software Environmental Setup**
 
--   Please include the prerequisite required to setup the device. Please use external links when possible pointing to your own page with device preparation steps.
+Compilation Environment 
+OS: Windowns
+Compiler: Snapdragon-llvm-4.0.3-windows64.zip .
+Preparation:
+This section describes how to use a device capability model to create an IoT Plug and Play Preview device.
+
+Firstly, you should install Azure IoT tools on Windows 10
+
+Use the following steps to install the [Azure IoT Tools for VS Code](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools) extension pack:
+In VS Code, select the Extensions tab.
+Search for Azure IoT Tools.
+Select Install.
+
+Then, Author your model on VS Code:
+
+Create a pnp_app directory in your local drive. Download the [Device Capability Model](https://github.com/Azure/opendigitaltwins-dtdl/blob/9004219bff1e958b7cd6ff2a52209f4b7ae19396/samples/SampleDevice.capabilitymodel.json) and [Interface Samplefiles](https://github.com/Azure/opendigitaltwins-dtdl/blob/9004219bff1e958b7cd6ff2a52209f4b7ae19396/samples/EnvironmentalSensor.interface.json) to the pnp_app folder.
+
+Note: the DCM file is the same with DCM file that used to create device template.
+
+
+Open pnp_app folder with VS Code. In the files you downloaded, replace <YOUR_COMPANY_NAME_HERE> in the @id and schema fields with your own name.
+Note: Only characters a-z, A-Z, 0-9, and underscore permitted).
+
+Generate the C code stub
+
+With the folder with DCM files open, use Ctrl+Shift+P to open the command palette, enter IoT Plug and Play, and select Generate Device Code Stub.
+
+Enter the project name sample_device, it will be the name of your device application.
+Choose Via DPS (Device Provisioning Service) symmetric key as connection method.
+Choose ANSI C as your language.
+Choose CMake Project on Linux as your project template.
+Choose Via Source Code as the way to include the SDK.
+
+VS Code opens a new window with generated device code stub files.
+
+
+Get Azure IoT device SDK for C on Ubuntu
+
+Open a command prompt. Execute the following command to clone the [Azure IoT C SDK](https://github.com/Azure/azure-iot-sdk-c) GitHub repository:
+	git clone https://github.com/Azure/azure-iot-sdk-c --recursive -b public-preview
+
+
+Build the code
+The Microsoft Azure SDK porting layer package includes the following items from Qualcomm.  Qualcomm porting library (azure_sdk_port.lib). Sample LLVM build script to build the Microsoft Azure SDK library  (build_azure_sdk_lib_llvm.bat)  Sample LLVM build script to build the Azure application by linking to the Microsoft  Azure SDK and Qualcomm porting libraries (build_azure_sdk_app_llvm.bat).
+Here is a sample setup for compiling the sample application:
+
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B77.PNG)
 
 ### Option 1
 
