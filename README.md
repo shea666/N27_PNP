@@ -183,13 +183,22 @@ Use the QFLOG tool to push the bin files to the devices, and then restart the de
 
 ![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B710.PNG)
 
+### Option 2
+
+Run the sample application
+DAM application autoruns whenever the device powers-up or reboots and does not require any manual intervention or special configuration.
+
 <a name="IntegrationwithIoTCentral"></a>
 # Integration with IoT Central
 
--   Include the steps on how to connect the Device to IoT Central
--   Include the steps by step process on how the devices use the DPS configuration (ID Scope, SAS Key, Device ID, Registration ID) to provision to IoT Central.
--   Include screenshots and comments on how IoT Central shows/visualize telemetry coming from your PnP device.
--   Use this [Get started]( https://aka.ms/AA66he8) doc as an example
+After the build completes successfully, run your application .
+The device application starts connecting to IoT Central.
+
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B711.PNG)
+
+Go to IoT Central, open the related device. you can get the device data at the view page.
+
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B712.PNG)
 
 <a name="AdditionalLinks"></a>
 # Additional Links
