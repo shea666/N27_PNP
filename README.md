@@ -181,7 +181,7 @@ build_azure_sdk_app_llvm.bat.
 Install binary file to the device
 Use the QFLOG tool to push the bin files to the devices, and then restart the device.
 
-https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B710.PNG
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B710.PNG)
 
 <a name="IntegrationwithIoTCentral"></a>
 # Integration with IoT Central
