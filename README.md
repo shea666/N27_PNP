@@ -162,9 +162,26 @@ Copy the common folder of LTE IoT SDK package to the same level as the Microsoft
 
 ### Option 6
 
+Update LLVMROOT path in build_azure_sdk_lib_llvm.bat and build_azure_sdk_lib_llvm.bat build script files to point to the LLVM folder location. Ensure that the scripts point to the header files in the common folder.
+
 ### Option 7
 
+Run the build_azure_sdk_lib_llvm.sh build script under Azure_SDK/build to generate the Microsoft Azure SDK IoT C library.
+build_azure_sdk_lib_llvm.bat.
+
 ### Option 8
+
+Run the build_azure_sdk_app_llvm.bat build script under Azure_SDK/build to compile the application and link to both the Azure Qualcomm platform library (azure_sdk_port.lib) and Microsoft Azure SDK IoT C library (azure_sdk.lib) to generate binary file under Azure_SDK/build/bin.
+build_azure_sdk_app_llvm.bat.
+
+**Test**
+
+### Option 1
+
+Install binary file to the device
+Use the QFLOG tool to push the bin files to the devices, and then restart the device.
+
+https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B710.PNG
 
 <a name="IntegrationwithIoTCentral"></a>
 # Integration with IoT Central
