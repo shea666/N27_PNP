@@ -82,7 +82,11 @@ Select the device and you will see details about it, Select the Connect button, 
 
 **Hardware Environmental setup**
 
--   Please include how to setup and connect the device. Include external links for any software required for Hardware setup
+Materials prepared: N27 EVB device, debug tool,5V/2A power adapter，Antenna, SIM card, USB cable
+
+Connected N27 EVB device with USB cable
+Use the 5V/2A power adapter to power the module
+Connect the USB cable, power adapter, antenna, SIM card, etc. as shown in the picture
 
 **Software Environmental Setup**
 
