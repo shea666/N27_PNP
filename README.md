@@ -140,23 +140,31 @@ Here is a sample setup for compiling the sample application:
 
 ### Option 1
 
--   If device code not pre-installed on your device, please provide us the URL of your repository.
-
--   Specify the steps on how to flash the image on device and provide required URL's to download the flash-able image and necessary tools. **Please add the screenshots where ever necessary.**
+Copy the cloned Microsoft Azure SDK IoT C files to the Azure_SDK\azure-iot-sdk-c  folder.
 
 ### Option 2
 
--   For the partners using the Microsoft PnP SDK samples
-
--   If recompilation of code is not required, please provide config file here, such that it can be copied in the C sdk environment to enable Plug and Play on device
-
--   Please include instruction on how to compile the code, tools and environment required to compile etc. **Please add the screenshots where ever necessary**
+Download the LTE IoT SDK package from the Qualcomm CreatePoint website.
 
 ### Option 3
 
--   If recompilation is required, then please provide the link for GitHub repo for anyone to modify.
+Set up the environment for using LLVM and QFLOG. Also, a reference LLVM DAM module preamble is present in the package that is needed to build the application binary.
 
--   Please include instruction on how to compile the code , tools and environment required to compile etc. **Please add the screenshots where ever necessary**
+### Option 4
+
+Copy the common folder of LTE IoT SDK package to the same level as the Microsoft Azure SDK.
+
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B78.PNG)
+
+### Option 5
+
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B79.PNG)
+
+### Option 6
+
+### Option 7
+
+### Option 8
 
 <a name="IntegrationwithIoTCentral"></a>
 # Integration with IoT Central
