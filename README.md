@@ -48,6 +48,15 @@ _Device Connection Details_
 This section describes how to add a device to your IoT Central application and get device connection details. Theses connection details will be used when Integration with IoT Central
 Navigate to IoT Central application page, the default page is on Dashboard.To add a new device template, select +New on the Device Templates page.
 ![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B72.PNG)
+
+Choose IoT Device from the list of custom device templates, select Next: Customize, then select Next: Review, and then select Create. Enter Environmental Sensor as the name of your device template.
+Download ‘EnvironmentalSensorInline.capabilitymodel.json’ file that contains the [IoT Plug and Play](https://docs.microsoft.com/en-us/azure/iot-pnp/overview-iot-plug-and-play)
+device capability model. 
+After you download the file, open it in a text editor, and replace the two instances of <YOUR_COMPANY_NAME_HERE> with ‘neoway’. 
+Note: only the characters a-z, A-Z, 0-9, and underscore permit.
+Back toDevice templates > Environmental Sensor page. Choose Import Capability Model to create a new device capability model from a JSON file. Navigate to the folder where you saved the EnvironmentalSensorInline.capabilitymodel.json file on your local machine. Select the file and then select Open. 
+In order to interact with your device, you should create a view to display relevant information about your device.
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E6%8D%95%E8%8E%B73.PNG)
 <a name="preparethedevice"></a>
 # Prepare the Device.
 
