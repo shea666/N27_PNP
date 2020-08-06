@@ -88,6 +88,12 @@ Connected N27 EVB device with USB cable
 Use the 5V/2A power adapter to power the module
 Connect the USB cable, power adapter, antenna, SIM card, etc. as shown in the picture
 
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E7%A1%AC%E4%BB%B61.PNG)
+
+Long press pwr_key to boot
+
+![Image text](https://github.com/shea666/N27_PNP/blob/master/picture/%E7%A1%AC%E4%BB%B62.PNG)
+
 **Software Environmental Setup**
 
 Compilation Environment 
